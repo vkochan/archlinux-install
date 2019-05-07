@@ -11,10 +11,13 @@ FONTS=noto-fonts \
 
 SOUND=alsa-utils alsa-plugins alsa-lib pavucontrol
 
+DEVEL=linux-headers fakeroot libvirt bc qemu vim cmake git
+
 PACKAGES=xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status dmenu rofi conky \
 	${FONTS} \
 	${SOUND} \
-	vim nnn tmux qemu htop firefox w3m vlc mupdf feh
+	${DEVEL} \
+	nnn tmux qemu htop curl wget firefox w3m vlc mupdf feh
 
 PACKAGES_AUR=laptop-mode-tools st-luke-git
