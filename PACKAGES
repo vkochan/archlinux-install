@@ -11,13 +11,16 @@ FONTS=noto-fonts \
 
 SOUND=alsa-utils alsa-plugins alsa-lib pavucontrol
 
-DEVEL=linux-headers fakeroot libvirt bc qemu vim cmake git
+DEVEL=linux-headers fakeroot libvirt bc qemu vim cmake git ctags cscope
+
+MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
 PACKAGES=xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status dmenu rofi conky \
 	${FONTS} \
 	${SOUND} \
 	${DEVEL} \
-	nnn tmux qemu htop curl wget firefox w3m vlc mupdf feh
+	${MEDIA} \
+	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal
 
-PACKAGES_AUR=laptop-mode-tools st-luke-git
+PACKAGES_AUR=laptop-mode-tools st-luke-git sc-im
