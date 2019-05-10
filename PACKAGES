@@ -11,12 +11,24 @@ FONTS=noto-fonts \
 
 SOUND=alsa-utils alsa-plugins alsa-lib pavucontrol
 
-DEVEL=linux-headers fakeroot libvirt bc qemu vim cmake git ctags cscope
+DEVEL=linux-headers \
+	fakeroot \
+	libvirt \
+	bc \
+	qemu \
+	vim \
+	cmake \
+	git \
+	ctags \
+	cscope \
+	perl-authen-sasl \
+	perl-net-smtp-ssl \
+	perl-mime-tools
 
 MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
 PACKAGES=xorg-server xorg-apps xorg-xinit \
-	i3-gaps i3status dmenu rofi conky compton \
+	i3-gaps i3status i3blocks dmenu rofi conky compton \
 	${FONTS} \
 	${SOUND} \
 	${DEVEL} \
