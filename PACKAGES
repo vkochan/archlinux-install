@@ -33,6 +33,6 @@ PACKAGES=xorg-server xorg-apps xorg-xinit \
 	${SOUND} \
 	${DEVEL} \
 	${MEDIA} \
-	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal
+	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal acpi
 
 PACKAGES_AUR=laptop-mode-tools st-luke-git sc-im
