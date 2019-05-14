@@ -27,12 +27,15 @@ DEVEL=linux-headers \
 
 MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
+POWER=acpi tlp
+
 PACKAGES=xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status i3blocks dmenu rofi conky compton \
 	${FONTS} \
 	${SOUND} \
 	${DEVEL} \
 	${MEDIA} \
-	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal acpi
+	${POWER} \
+	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal
 
-PACKAGES_AUR=laptop-mode-tools st-luke-git sc-im
+PACKAGES_AUR=st-luke-git sc-im
