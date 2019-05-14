@@ -23,7 +23,8 @@ DEVEL=linux-headers \
 	cscope \
 	perl-authen-sasl \
 	perl-net-smtp-ssl \
-	perl-mime-tools
+	perl-mime-tools \
+	mtools
 
 MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
@@ -36,6 +37,6 @@ PACKAGES=xorg-server xorg-apps xorg-xinit \
 	${DEVEL} \
 	${MEDIA} \
 	${POWER} \
-	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal
+	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal cdrtools
 
-PACKAGES_AUR=st-luke-git sc-im
+PACKAGES_AUR=st-luke-git sc-im geteltorito
