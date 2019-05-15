@@ -28,7 +28,7 @@ DEVEL=linux-headers \
 
 MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
-POWER=acpi tlp
+POWER=acpi tlp powertop
 
 PACKAGES=xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status i3blocks dmenu rofi conky compton \
