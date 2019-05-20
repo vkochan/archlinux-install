@@ -7,7 +7,7 @@ FONTS=noto-fonts \
 	ttf-inconsolata \
 	ttf-roboto \
 	terminus-font \
-	ttf-font-awesome
+	ttf-font-awesome \
 
 SOUND=alsa-utils alsa-plugins alsa-lib pavucontrol
 
@@ -39,4 +39,4 @@ PACKAGES=xorg-server xorg-apps xorg-xinit \
 	${POWER} \
 	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal cdrtools
 
-PACKAGES_AUR=st-luke-git sc-im geteltorito
+PACKAGES_AUR=st-luke-git sc-im geteltorito ttf-symbola
