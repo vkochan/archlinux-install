@@ -30,6 +30,8 @@ MEDIA=mpv mupdf feh youtube-viewer youtube-dl
 
 POWER=acpi tlp powertop
 
+SENSORS=lm_sensors
+
 PACKAGES=xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status i3blocks dmenu rofi conky compton \
 	${FONTS} \
@@ -37,6 +39,7 @@ PACKAGES=xorg-server xorg-apps xorg-xinit \
 	${DEVEL} \
 	${MEDIA} \
 	${POWER} \
+	${SENSORS} \
 	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal cdrtools
 
 PACKAGES_AUR=st-luke-git sc-im geteltorito ttf-symbola
