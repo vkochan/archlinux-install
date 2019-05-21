@@ -7,7 +7,7 @@ FONTS=noto-fonts \
 	ttf-inconsolata \
 	ttf-roboto \
 	terminus-font \
-	ttf-font-awesome \
+	ttf-font-awesome
 
 SOUND=alsa-utils alsa-plugins alsa-lib pavucontrol
 
