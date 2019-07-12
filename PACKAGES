@@ -16,6 +16,7 @@ DEVEL=linux-headers \
 	libvirt \
 	bc \
 	qemu \
+	qemu-arch-extra \
 	vim \
 	cmake \
 	git \
@@ -32,7 +33,7 @@ POWER=acpi tlp powertop
 
 SENSORS=lm_sensors
 
-PACKAGES=xorg-server xorg-apps xorg-xinit \
+PACKAGES=openssh xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status i3blocks dmenu rofi conky compton \
 	${FONTS} \
 	${SOUND} \
@@ -40,6 +41,6 @@ PACKAGES=xorg-server xorg-apps xorg-xinit \
 	${MEDIA} \
 	${POWER} \
 	${SENSORS} \
-	nnn tmux qemu htop curl wget firefox w3m calcurse python-pywal cdrtools
+	nnn tmux htop curl wget firefox w3m calcurse python-pywal cdrtools
 
 PACKAGES_AUR=st-luke-git sc-im geteltorito ttf-symbola
