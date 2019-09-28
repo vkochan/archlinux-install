@@ -27,7 +27,7 @@ DEVEL=linux-headers \
 	perl-mime-tools \
 	mtools
 
-MEDIA=mpv mupdf feh youtube-viewer youtube-dl
+MEDIA=mpv mupdf feh youtube-viewer youtube-dl peek
 
 POWER=acpi tlp powertop
 
