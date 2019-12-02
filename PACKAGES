@@ -34,6 +34,8 @@ POWER=acpi tlp powertop
 
 SENSORS=lm_sensors
 
+EMAIL=mutt offlineimap
+
 PACKAGES=openssh xorg-server xorg-apps xorg-xinit \
 	i3-gaps i3status i3blocks dmenu rofi conky compton \
 	${FONTS} \
@@ -42,6 +44,7 @@ PACKAGES=openssh xorg-server xorg-apps xorg-xinit \
 	${MEDIA} \
 	${POWER} \
 	${SENSORS} \
+  ${EMAIL} \
 	nnn tmux htop curl wget firefox w3m calcurse python-pywal cdrtools
 
-PACKAGES_AUR=st-luke-git sc-im geteltorito ttf-symbola
+PACKAGES_AUR=st-luke-git sc-im geteltorito ttf-symbola mu
