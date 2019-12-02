@@ -66,8 +66,8 @@ grub-mkconfig > /boot/grub/grub.cfg
 
 # Install packages
 pacman -Syyuu
-git clone https://aur.archlinux.yaourt.git /tmp
-(cd /tmp/yaourt; makepkg -si)
+git clone https://aur.archlinux.org/yay.git /tmp
+(cd /tmp/yay; makepkg -si)
 
 pacman -S ${PACKAGES} --noconfirm --needed
-yaourt -S ${PACKAGES_AUR} --noconfirm
+yay -S ${PACKAGES_AUR} --noconfirm
